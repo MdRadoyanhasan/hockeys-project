@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hockeys</title>
+    <link rel="stylesheet" href="styles/style.css">
     <!-- tailwind and daisy UI -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -34,10 +35,10 @@
 
 </head>
 <body class="font-manrope">
-    <header   class="container mx-auto lg my-8">
+    <header   class="container mx-auto px-7 lg:my-8">
         <!-- navber section -->
         <nav>
-            <div class="navbar bg-base-100">
+            <div class="navbar bg-base-100 mb-5">
                 <div class="navbar-start">
                   <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -72,7 +73,7 @@
         </nav>
 
         <!-- banner section -->
-        <div class="container mx-auto" >
+        <div  >
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full">
                   <img src="Images/1.png" class="w-full" />
@@ -106,18 +107,188 @@
         </div>
 
     </header>
-    <main  class="container mx-auto lg:px-24  ">
+    <main  class="container mx-auto px-7">
         <section class=" text-center my-10">
             <h2 class="text-5xl font-extrabold mb-5">Professional Hockeys Club</h2>
             <p class="lg:w-2/3 mx-auto">There are many types of hockey. Some games make the use of skates, either wheeled or bladed, while others do not. In order to help make the distinction between these various games.</p>
-            <div class="grid grid-cols-1 lg:grid-cols-4">
-                
-              
-
+            <div class="grid grid-cols-1 lg:grid-cols-4 my-10 gap-5">
+            <div>
+              <div class="radial-progress text-[#FF4240] " style="--value:87;" role="progressbar"><span class="text-black font-bold">87%</span></div>
+            <h6 class="font-bold mb-2">Prayer Facility</h6>
+            <p class="lg:w-2/3 mx-auto">Amet consectetur. Condimentum dignissim adipiscing .</p>
+            </div>
+            <div>
+              <div class="radial-progress text-[#49D293]" style="--value:95;" role="progressbar"><span class="text-black font-bold">95%</span></div>
+            <h6 class="font-bold mb-2">Experienced Coach</h6>
+            <p class="lg:w-2/3 mx-auto">Amet consectetur. Condimentum dignissim adipiscing .</p>
+            </div>
+            <div>
+              <div class="radial-progress text-[#FFB546]" style="--value:90;" role="progressbar"><span class="text-black font-bold">90%</span></div>
+            <h6 class="font-bold mb-2">Senior Player</h6>
+            <p class="lg:w-2/3 mx-auto">Amet consectetur. Condimentum dignissim adipiscing .</p>
+            </div>
+            <div>
+              <div class="radial-progress text-[#4C8DF1] " style="--value:80;" role="progressbar"><span class="text-black font-bold">80%</span></div>
+            <h6 class="font-bold mb-2">Training Ground</h6>
+            <p class="lg:w-2/3 mx-auto">Amet consectetur. Condimentum dignissim adipiscing .</p>
             </div>
 
+            </div>
         </section>
 
+        <!-- Program Sections -->
+      <section >
+        <div class=" text-center my-10">
+          <h2 class="text-5xl font-extrabold mb-5">Program Sections</h2>
+          <p class="lg:w-2/3 mx-auto">There are many types of hockey. Some games make the use of skates, either wheeled or bladed, while others do not. In order to help make the distinction between these various games.</p>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+         
+          <div class="hero w-full rounded-26 " style="background-image: url(Images/2.png); border-radius: 26px; background-size: cover; background-position: center;">
+            <div class="hero-overlay bg-opacity-60">
+         </div>
+            <div class="hero-content text-neutral-content">
+              <div class="max-w-lg text-white mt-20 mb-20">
+                <h1 class="mb-5 text-5xl font-bold">Junior Program</h1>
+                <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                <button class="btn bg-hockey-primary  text-white">Register Now!</button>
+              </div>
+            </div>
+          </div>
+          <div class="hero w-full rounded-3xl" style="background-image: url(Images/3.png);">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-neutral-content">
+              <div class="max-w-lg text-white ">
+                <h1 class="mb-5 text-5xl font-bold">Teenager Program</h1>
+                <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                <button class="btn bg-hockey-primary  text-white">Register Now!</button>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="mt-10">
+          <div class="hero w-full" style="background-image: url(Images/4.png);">
+            <div class="hero-overlay bg-opacity-50"></div>
+            <div class="hero-content ">
+              <div class="max-w-lg text-white mt-40 mb-10">
+                <h1 class="mb-5 text-5xl font-bold">Professional Program</h1>
+                <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                <button class=" btn bg-hockey-primary  text-white">Register Now!</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+      </section>
+      <!-- Our New Products -->
+      <section>
+        <div class="flex gap-5">
+          
+          <div class="flex">
+            <div class="flex">
+            <img src="Images/Frame (1).png" alt="">
+            <p>5.0</p>
+         </div>
+          <div class="flex">
+            <img src="Images/Frame (2).png" alt="">
+           <p>20</p>
+         </div>
+          <div class="flex">
+            <img src="Images/Frame (3).png" alt="">
+            <p>200</p>
+
+
+        </div>
+        
+      </section>
+
+
+
+
+
+      <!-- form and info  -->
+      <section>
+        <div >
+          <div class=" text-center my-10">
+            <h2 class="text-5xl font-extrabold mb-5">Get  In Touch</h2>
+             <p class="lg:w-2/3 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+          </div>
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 ">
+           <div class="flex-col flex gap-5">
+            <div class=" hockey-card p-5">
+              <div class="hockey-card-touch ">
+                <img class="mb-5" src="Images/Group 1171275317.png" alt="">
+                <p >Phone Number </p>
+                <h5 class=" font-bold">(+62) 123-321-543</h5>
+               </div>
+
+            </div>
+            <div class=" hockey-card p-5">
+              <div class="hockey-card-touch ">
+                <img class="mb-5" src="Images/Group 1171275318.png" alt="">
+                <p >Phone Number </p>
+                <h5 class=" font-bold"></h5>
+               </div>
+
+            </div>
+            <div class=" hockey-card p-5 ">
+              <div class="hockey-card-touch ">
+                <img class="mb-5" src="Images/Group 1171275317.png" alt="">
+                <p >Phone Number </p>
+                <h5 class=" font-bold">(+62) 123-321-543</h5>
+               </div>
+
+            </div>
+           </div>
+            <div class="lg:col-span-2">
+              <div class="grid gap-6 grid-cols-1 lg:grid-cols-2">
+                <div>
+                  <label for="" class="font-bold">Your Name</label>
+                  <input type="text" placeholder="Type here" class="mt-2 input input-bordered w-full" />
+                </div>
+                <div>
+                  <label for=""  class="font-bold">Your Email</label>
+                  <input type="text" placeholder="Type here" class=" mt-2 input input-bordered w-full " />
+                </div>
+                <div>
+                  <label for=""  class="font-bold">Subject</label>
+                  <input type="text" placeholder="Type here" class=" mt-2 input input-bordered w-full " />
+                </div>
+                <div>
+                  <label for=""  class="font-bold">Your Phone Number</label>
+                  <input type="text" placeholder="Type here" class=" mt-2 input input-bordered w-full " />
+                </div>
+              </div>
+              <div class="mt-4">
+                <label for=""  class="font-bold">Massage</label>
+                <textarea class="w-full mt-2 textarea textarea-bordered " placeholder="Bio" rows="5"></textarea>
+              </div>
+              <button class="w-full mt-4 btn bg-hockey-primary  text-white">Send Messages</button>
+              
+            
+            </div>
+
+          </div>
+          
+        
+             
+        </div>
+
+      </section>
+      <section>
+        <div class="hero mt-20 bg-base-200 rounded-3xl">
+          <div class="hero-content text-center">
+            <div class="max-w-lg">
+              <h1 class="text-5xl font-bold mb-5">Social Media</h1>
+              <img src="Images/Social.png" alt="">
+           
+            </div>
+          </div>
+        </div>
+      </section>
+      
     </main>
     <footer>
 
