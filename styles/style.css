@@ -1,4 +1,12 @@
 .hockey-card{
     background: rgba(188, 237, 109, 0.10); 
     border-radius: 16px;
-} 
+}
+.hockey-card-tow {
+    background: rgba(253, 221, 95, 0.10);
+    border-radius: 16px;
+}
+.hockey-card-three{
+    background:  rgba(98, 156, 243, 0.10);
+    border-radius: 16px;
+}  
